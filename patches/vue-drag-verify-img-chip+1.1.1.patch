@@ -1,0 +1,18 @@
+diff --git a/node_modules/vue-drag-verify-img-chip/src/packages/vue-drag-verify-img-chip/src/main.vue b/node_modules/vue-drag-verify-img-chip/src/packages/vue-drag-verify-img-chip/src/main.vue
+index 28bc954..50a306b 100644
+--- a/node_modules/vue-drag-verify-img-chip/src/packages/vue-drag-verify-img-chip/src/main.vue
++++ b/node_modules/vue-drag-verify-img-chip/src/packages/vue-drag-verify-img-chip/src/main.vue
+@@ -162,11 +162,11 @@ export default {
+     },
+     successTip: {
+       type: String,
+-      default: "验证通过，超过80%用户"
++      default: `Verification passed, more than 80% of users`
+     },
+     failTip: {
+       type: String,
+-      default: "验证未通过，拖动滑块将悬浮图像正确合并"
++      default: `Verification failed, please try again`
+     },
+     diffWidth: {
+       type: Number,

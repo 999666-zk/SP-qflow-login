@@ -1,0 +1,134 @@
+::v-deep .el-notification,
+.el-notification.right {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+
+[v-cloak] {
+    display: none;
+}
+$color_main1: #fef5e4;
+$color_main2: #ffebdb;
+/* $color_main1hover: #fde7b4;
+$color_main2hover: #ffdbaf; */
+$color1_font: #6f3e00;
+$color2_font: #7a2800;
+
+a {
+    text-decoration: none;
+}
+.icon {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color2_font,
+.color1_font {
+    min-width: 120px !important;
+    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+.right_box {
+    width: 34px;
+    height: 34px;
+    background: white;
+    border-radius: 50px;
+    position: relative;
+    min-width: 34px !important;
+    min-height: 34px !important;
+}
+
+.left_box {
+    display: flex;
+    justify-content: center;
+}
+
+.color1_font {
+    margin-left: 9.83px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: $color1_font;
+}
+
+.color2_font {
+    margin-left: 9.83px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: $color2_font;
+}
+
+.rows {
+    width: 14px;
+    height: 15px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.out-bb {
+    width: auto;
+    text-align: center;
+    padding: 0px 31px;
+    padding-bottom: 24px;
+    background: white;
+    transition: all 0.3s;
+}
+.el-col {
+    border-radius: 8px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.bg-purple-dark {
+    background: white;
+}
+/* ::v-deep .bg-purple:nth-child(1) {
+    background: $color_main1;
+} */
+.bg-purple-light {
+    background: white;
+}
+.grid-content {
+    border-radius: 8px;
+    min-height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 34px;
+}
+
+::v-deep .el-col {
+    margin-top: 20px !important;
+}
+.color1 > a > div {
+    background-color: $color_main1 !important;
+    transition: all 0.3s;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+}
+/* .color1:hover > div {
+    background-color: $color_main1hover !important;
+    position: relative;
+    top: -4px;
+    box-shadow: 0 6px 8px #0c1f501f;
+} */
+.color2 > a > div {
+    background-color: $color_main2 !important;
+    transition: all 0.3s;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+}
+/* .color2:hover > div {
+    background-color: $color_main2hover !important;
+    position: relative;
+    top: -4px;
+    box-shadow: 0 6px 8px #0c1f501f;
+} */

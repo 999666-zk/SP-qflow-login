@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkSMGS"]=self["webpackChunkSMGS"]||[]).push([[899],{35734:function(n,t,e){e.r(t),e.d(t,{default:function(){return f}});var u=function(){var n=this,t=n._self._c;return t("div",[n._v(" hello mobile ")])},o=[],c={components:{},data:function(){return{}},computed:{},methods:{},created:function(){},mounted:function(){}},r=c,l=e(43736),d=(0,l.Z)(r,u,o,!1,null,"05db330d",null),f=d.exports}}]);
+//# sourceMappingURL=M_LoginPage-legacy.e39a7969.js.map

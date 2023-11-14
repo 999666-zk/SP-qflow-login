@@ -1,0 +1,74 @@
+.qf-logo_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.qf-logo_left .login-text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #121315;
+}
+
+.qf-logo_left .login-text .logo-link img {
+  height: 35px;
+}
+
+.qf-logo_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.qf-logo_center .login-text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #121315;
+}
+
+.qf-logo_center .login-text .logo-link img {
+  height: 35px;
+}
+
+.qf-logo_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.qf-logo_right .login-text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #121315;
+}
+
+.qf-logo_right .login-text .logo-link img {
+  height: 35px;
+}

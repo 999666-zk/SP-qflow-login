@@ -1,0 +1,191 @@
+@charset "UTF-8";
+@media screen and (min-width: 769px) {
+  ::v-deep #imgsp .el-tag {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    padding: 6px 5px 0px 5px;
+    margin: 5px 5px 0px 5px;
+  }
+  ::v-deep #imgsp .el-tag .el-icon-close {
+    top: -1px;
+    right: -32px;
+  }
+  .middle {
+    margin-top: 20px;
+    /* padding: 10px; */
+    padding-right: 20px;
+    padding-left: 10px;
+    /* min-width: max-content; */
+  }
+  /* 默认单选框选中 */
+  ::v-deep .el-dialog {
+    opacity: 0.8;
+  }
+  .el-tag + .el-tag {
+    margin-left: 10px;
+  }
+  .button-new-tag {
+    margin-left: 10px;
+    height: 32px;
+    line-height: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .input-new-tag {
+    width: 90px;
+    margin-left: 10px;
+    vertical-align: bottom;
+  }
+  ::v-deep .el-radio {
+    margin: 5px 20px 5px 00px;
+  }
+  ::v-deep .el-radio.is-bordered + .el-radio.is-bordered {
+    margin-left: 0px;
+  }
+  ::v-deep .el-badge__content.is-fixed {
+    right: 45px;
+    top: 5px;
+  }
+  .el-radio-group {
+    float: left;
+  }
+  .base > .el-badge__content {
+    background-color: green !important;
+  }
+  .drawer {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .setbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    bottom: 0px;
+    width: 34%;
+    /* 为了防止布局出现错乱，设置最小宽度值 */
+    /* min-width: 474px; */
+    min-width: 34%;
+    height: 100%;
+    background: white;
+    border-left: 4px solid !important;
+    -o-border-image: linear-gradient(to top, #8486f4, #9ce1f9, #f8e4aa) 1;
+       border-image: -webkit-gradient(linear, left bottom, left top, from(#8486f4), color-stop(#9ce1f9), to(#f8e4aa)) 1;
+       border-image: linear-gradient(to top, #8486f4, #9ce1f9, #f8e4aa) 1;
+    -webkit-box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    right: -34%;
+    /* 超出的部分可以出现滚动条 */
+    overflow-y: scroll;
+    /* padding: 0px 0px 0px 20px; */
+  }
+  .setbox2 {
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    bottom: 0px;
+    width: 34%;
+    height: 100%;
+    background: white;
+    -webkit-box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    right: -34%;
+    /* 超出的部分可以出现滚动条 */
+    overflow-y: scroll;
+    /* padding: 0px 0px 0px 20px; */
+  }
+  .show {
+    right: 0;
+  }
+  .setting {
+    position: absolute !important;
+    right: 0px !important;
+    top: 0px !important;
+  }
+  .icon-setting {
+    display: inline-block;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin: 6px 10px 0px 0px;
+    font-size: 20px;
+    color: #96c0fb;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .icon-setting:hover {
+    display: inline-block;
+    color: #4c94f9;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  .header {
+    background: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .fl {
+    padding-left: 20px;
+    margin-top: 20px;
+    line-height: 24px;
+    font-size: 18px;
+    color: #303133;
+  }
+  .icon-close {
+    display: inline-block;
+    margin: 6px 6px 0px 0px;
+    font-size: 20px;
+    border: none;
+    color: #d2d2d2;
+    background: white;
+    cursor: pointer;
+    font-weight: 600;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .icon-close:hover {
+    display: inline-block;
+    color: #5a9cf8;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  .main {
+    /* text-align: center; */
+    margin-top: 10%;
+  }
+  .dialog-footer {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .login-tips {
+    margin-top: 40px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,12 @@
+.plus-icon-enter-active {
+    transition: opacity 1s;
+}
+.plus-icon-enter {
+    opacity: 0;
+}
+.plus-icon-leave-active {
+    transition: opacity 1s;
+}
+.plus-icon-leave-to {
+    opacity: 0;
+}

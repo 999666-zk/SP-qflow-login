@@ -1,0 +1,217 @@
+@media screen and (min-width: 922px) {
+  .tops {
+    height: 68px;
+    width: 100%;
+    background: #151628;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    z-index: 99999;
+    overflow: hidden;
+    position: absolute;
+  }
+  .tops .center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tops .center .middle {
+    margin: 0px 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .tops .center .middle div {
+    width: 1px;
+    height: 32px;
+    background: #ccd4e0;
+  }
+  .tops .center .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  ::v-deep .el-alert--warning.is-light {
+    height: 68px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 22px;
+    color: white;
+    background: red;
+    width: 35vw !important;
+  }
+  ::v-deep .el-alert__closebtn {
+    top: 23px !important;
+  }
+  ::v-deep .el-icon-warning:before {
+    color: #fb9337;
+  }
+  #warning-icon {
+    width: 16.67px !important;
+    height: 16.67px !important;
+  }
+  .notice {
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fb9337;
+    margin-left: 5.67px;
+    cursor: pointer;
+  }
+  .alert {
+    border: none !important;
+    padding: 0px 12px !important;
+    height: 68px;
+    font-size: 14px;
+    color: white;
+    height: 68px;
+    padding: 0px !important;
+    margin-bottom: 0px;
+    position: relative;
+    background: #151628;
+  }
+  p {
+    font-size: 14px;
+    color: white;
+    line-height: 20px;
+    margin: 6px 0px !important;
+    min-width: 640px !important;
+  }
+  .alert-dismissible .btn-close {
+    padding: 1.25rem 1rem;
+    position: absolute;
+    right: -5% !important;
+    top: 50% !important;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    z-index: 2 !important;
+    color: white !important;
+    width: 10.67px !important;
+    height: 10.67px !important;
+  }
+}
+
+@media screen and (min-width: 150px) and (max-width: 921px) {
+  .tops {
+    height: 68px;
+    width: 100%;
+    background: #151628;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    z-index: 99999;
+    display: none;
+  }
+  .tops .center {
+    width: calc(100% - 440px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tops .center .middle {
+    margin: 0px 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .tops .center .middle div {
+    width: 1px;
+    height: 32px;
+    background: #ccd4e0;
+  }
+  .tops .center .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  ::v-deep .el-alert--warning.is-light {
+    height: 68px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 22px;
+    color: white;
+    background: red;
+    width: 35vw !important;
+  }
+  ::v-deep .el-alert__closebtn {
+    top: 23px !important;
+  }
+  ::v-deep .el-icon-warning:before {
+    color: #fb9337;
+  }
+  #warning-icon {
+    width: 16.67px !important;
+    height: 16.67px !important;
+  }
+  .notice {
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fb9337;
+    margin-left: 5.67px;
+  }
+  .alert {
+    border: none !important;
+    padding: 0px 12px !important;
+    font-size: 14px;
+    color: white;
+    height: 68px;
+    padding: 0px !important;
+    margin-bottom: 0px;
+    background: #151628;
+  }
+  p {
+    font-size: 14px;
+    color: white;
+    margin: 6px 0px !important;
+  }
+  .alert-dismissible .btn-close {
+    padding: 1.25rem 1rem;
+    position: absolute;
+    right: -10% !important;
+    top: 10% !important;
+    z-index: 2 !important;
+  }
+}

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkSMGS"]=self["webpackChunkSMGS"]||[]).push([[381],{897:function(e,t,n){n.r(t),n.d(t,{default:function(){return d}});var u=function(){var e=this,t=e._self._c;return t("div",[e._v("我是移动端")])},r=[],c={components:{},data(){return{}},computed:{},methods:{},created(){},mounted(){}},s=c,a=n(3736),o=(0,a.Z)(s,u,r,!1,null,"78a532e2",null),d=o.exports}}]);
+//# sourceMappingURL=M_Mobile.51febe29.js.map

@@ -1,0 +1,56 @@
+//===================logo-start=====================
+// left
+.qf-logo_left {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  transition: all 0.3s;
+  .login-text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #121315;
+    .logo-link {
+      img {
+        height: 35px;
+      }
+    }
+  }
+}
+// center
+.qf-logo_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  .login-text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #121315;
+    .logo-link {
+      img {
+        height: 35px;
+      }
+    }
+  }
+}
+// right
+.qf-logo_right {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  transition: all 0.3s;
+  .login-text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #121315;
+    .logo-link {
+      img {
+        height: 35px;
+      }
+    }
+  }
+}
+//===================logo-end=====================

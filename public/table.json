@@ -1,0 +1,56 @@
+{
+    "data": {
+        "thirdPartyLib":["https://file.qingflow.com/documents/form/attach/cc7a016d14646CE/24dccb1c-d589-4923-9915-ba7f4f1d1ff8.js"],
+        "lang": "en",
+        "logo_path": "https://file.qingflow.com/assets/logoBlack.png",
+        "icon_path": "data:image/png;base64,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",
+        "userData": {
+            "username": "SMGS",
+            "useQingFlowVersion": 4.3
+        },
+        "styleData": {
+            "qf_logo": "qf-logo_left",
+            "qf_login": "ms-login",
+            "qf_footer": "footer-bottom-center-up",
+            "login_type": "passportsso",
+            "login_tips": "2",
+            "login_footer": "2",
+            "homeUrl": "https://uat.scholarshipsgateway.gov.sg/index/home",
+            "qf_homeStyle": "allView",
+            "qf_swiper_way": "horizontal",
+            "qf_loopvalue": false,
+            "qf_swiper_pages": "none",
+            "qflowType": "uat",
+            "qflowDomain": "uat.scholarshipsgateway.gov.sg",
+            "settingHide": "2"
+        },
+        "backgroundImg": [
+        ],
+        "loginWays": [
+            {
+                "WayName": "WOG AAD",
+                "SyName": "wog-ad",
+                "isShow": true,
+                "WayImgUrl": "https://awsuat-s3.s3.ap-southeast-1.amazonaws.com/documents/form/attach/16BB790646dd387-c2cd-422a-8531-764f6316967e.png",
+                "WayToUrl": "https://login.microsoftonline.com/0b11c524-9a1c-4e1b-84cb-6336aefc2243/oauth2/v2.0/authorize?client_id=a721a282-4c5d-4bd3-9ee8-84e7c2f221f5&response_type=id_token&redirect_uri=https%3A%2F%2Fuat.scholarshipsgateway.gov.sg%2Fmidware%2Fwog%2FgetToken&response_mode=form_post&scope=openid+profile+email&nonce=<nonce>"
+            },
+            {
+                "WayName": "SingPass",
+                "SyName": "singpass",
+                "isShow": true,
+                "WayImgUrl": "https://login.singpass.gov.sg/spservice/favicon.svg",
+                "WayToUrl": "https://uat.scholarshipsgateway.gov.sg/midware/singpass/qr-code"
+            }
+        ],
+        "footData": {
+            "topArea": [],
+            "underArea": [
+                {
+                    "href": "https://beian.miit.gov.cn",
+                    "img": "",
+                    "text": "沪ICP备16014957号"
+                }
+            ]
+        }
+    }
+}

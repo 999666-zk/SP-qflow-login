@@ -1,0 +1,324 @@
+@charset "UTF-8";
+@media screen and (min-width: 922px) {
+  .login-box {
+    position: relative;
+    width: 336px;
+  }
+  .login-box .login-box-top-area {
+    padding-bottom: 20px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .login-box .login-box-top-area .qf-logo_left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .login-box .login-box-top-area .qf-logo_left .login-text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #121315;
+  }
+  .login-box .login-box-top-area .qf-logo_left .login-text .logo-link img {
+    height: 35px;
+  }
+  .login-box .login-box-top-area .qf-logo_center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .login-box .login-box-top-area .qf-logo_center .login-text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #121315;
+  }
+  .login-box .login-box-top-area .qf-logo_center .login-text .logo-link img {
+    height: 35px;
+  }
+  .login-box .login-box-top-area .qf-logo_right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .login-box .login-box-top-area .qf-logo_right .login-text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #121315;
+  }
+  .login-box .login-box-top-area .qf-logo_right .login-text .logo-link img {
+    height: 35px;
+  }
+  .login-box .login-box-top-area .form-title {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #767e89;
+  }
+  .login-box .login-box-top-area .form-title a {
+    color: #fb9337;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  .login-box .login-box-top-area .form-title a:hover {
+    color: #ffa459;
+  }
+  .login-box .form-items {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0 0 20px;
+    padding: 0;
+    color: #000000d9;
+    font-size: 16px;
+    font-variant: tabular-nums;
+    line-height: 1;
+    list-style: none;
+    -webkit-font-feature-settings: "tnum", "tnum";
+            font-feature-settings: "tnum", "tnum";
+    vertical-align: top;
+  }
+  .login-box .form-items .box-form-out {
+    width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0px;
+            flex: 1 1 0;
+    min-width: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    max-width: 100%;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .login-box .form-items .box-form-out .box-form-out-in-box {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 44px;
+  }
+  .login-box .form-items .box-form-out .box-form-out-in-box .box-form-out-inner {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .login-box .form-items .box-form-out .box-form-out-in-box .box-form-out-inner .btn {
+    border: 1px solid transparent;
+    cursor: pointer;
+    padding: 14px 16px;
+    height: 44px;
+    width: 100%;
+    background: var(--brand-primary-base, #fb9337);
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    border-radius: 4px;
+  }
+  .login-box .form-items .box-form-out .box-form-out-in-box .box-form-out-inner .btn:hover {
+    background: var(--brand-primary-50, #ffa459);
+  }
+  .login-box .form-items .box-form-out .box-form-out-in-box .box-form-out-inner .btn span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+  }
+  .login-box .form-items .box-form-out .box-form-out-in-box .box-form-out-inner .forget-pwd {
+    margin-top: 16px;
+    text-align: end;
+  }
+  .login-box .form-items .box-form-out .box-form-out-in-box .box-form-out-inner .forget-pwd a {
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    color: #fb9337;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  .login-box .form-items .box-form-out .box-form-out-in-box .box-form-out-inner .forget-pwd a:hover {
+    color: #ffa459;
+  }
+  .login-box .login-form {
+    /* 只有其他登录方式时 */
+  }
+  .login-box .login-form .login-other {
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    height: auto;
+    overflow-y: scroll;
+    text-align: center;
+    /* display: none; */
+  }
+  .login-box .login-form .wechat-login {
+    height: 44px;
+    width: 372px;
+    border: 1px solid #ccd4e0;
+    background: #ffffff;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 4px;
+    top: 168px;
+    left: 32px;
+    margin-top: 54px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .login-box .login-form .workwechat-login {
+    height: 44px;
+    width: 100%;
+    border: 1px solid #ccd4e0;
+    background: #ffffff;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 16px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .login-box .login-form .work-login-font {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: auto;
+    color: #121315;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 auto;
+  }
+  .login-box .login-form .login-font {
+    width: 100%;
+    height: 100%;
+    color: #121315;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* vertical-align: middle; */
+  }
+  .login-box .login-form .wechat-img {
+    width: 21px;
+    height: 19px;
+    vertical-align: middle;
+  }
+  .login-box .login-form .workwechat-img {
+    width: 0.5rem;
+    height: 0.5rem;
+    vertical-align: middle;
+    margin-right: 0.1rem;
+    border-radius: 50%;
+  }
+  .login-box .login-form .split-line {
+    position: absolute;
+    width: 372px;
+    height: 1px;
+    margin-left: 32px;
+    top: 336px;
+    border: 0;
+    background: #e6eaf0;
+    -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+            transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  .login-box .login-form .register-account {
+    /* position: absolute; */
+    width: 56px;
+    height: 22px;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #767e89;
+    left: calc(50% - 56px / 2 + 1px);
+    top: calc(50% - 22px / 2 + 168px);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .login-box .login-box-bottom-area {
+    /* 登录方式选择 */
+    /* 登录方式选择 */
+  }
+  .login-box .login-box-bottom-area .login-style {
+    height: 62px;
+    width: 100%;
+    bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .login-box .login-box-bottom-area .login-style a {
+    border: 1px solid #e6eaf0;
+    border-radius: 100%;
+  }
+  .login-box .login-box-bottom-area .login-style img {
+    width: 60px;
+    height: 60px;
+  }
+  .login-box .login-box-bottom-area .login-style1 {
+    height: 0px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+}

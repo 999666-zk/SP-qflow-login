@@ -1,0 +1,413 @@
+@media screen and (min-width: 922px) {
+    #swiper-out-box {
+        width: 100%;
+        height: 100%;
+    }
+    .swipermy-imgs {
+        width: 100%;
+        height: 100%;
+    }
+    .everyDayRate {
+        display: flex;
+        height: 100vh;
+        transition: all 0.5s ease-in-out;
+        background-size: cover;
+        // ========登录框的位置 start=======
+        //登录框的位置 right
+        .ms-login_right {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            margin-right: 10%;
+            transition: all 0.3s ease-in-out;
+        }
+
+        //登录框的位置 left
+        .ms-login_left {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin-left: 10%;
+            transition: all 0.3s ease-in-out;
+        }
+
+        //登录框的位置 center
+        .ms-login {
+            width: 100%;
+            height: calc(100vh - 100px);
+            // height: 100%;
+            // padding:  0px !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // transition: all 0.3s ease-in;
+        }
+        // ========登录框的位置 end=======
+    }
+
+    // ==========左右结构=======
+    .everyDayRate-lr {
+        display: flex;
+        height: 100%;
+        transition: all 0.5s ease-in-out;
+        background-size: cover;
+
+        // ========登录框的位置 start=======
+        //登录框的位置 right
+        .right-lr {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            transition: all 0.3s ease-in-out;
+        }
+
+        // 左右结构的样式
+        .right-box-lr {
+            height: 100%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 38%;
+            margin-left: 0px;
+            min-width: 600px;
+            // border-radius: 24px 0 0 24px;
+            background: #fff;
+            .inner-box {
+                box-sizing: border-box;
+            }
+        }
+
+        .left-box-lr {
+            width: calc(100% - 600px);
+            height: 100%;
+            flex: 1;
+            // background: pink;
+            video {
+                display: block;
+                width: 101%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .logo-link {
+        position: absolute;
+        top: 32px;
+        left: 32px;
+        z-index: 100;
+        cursor: pointer;
+        img {
+            height: 30px;
+        }
+    }
+
+    .right-box {
+        height: max-content;
+        box-shadow: 0px 0px 0px 1px #e6eaf0, 0px 16px 64px rgba(12, 31, 80, 0.06);
+        border-radius: 24px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        //黄金比例
+        // width: 38%;
+        width: 436px;
+        // 靠右的空隙
+        min-width: 436px;
+        background: #fff;
+        padding: 40px 0px 40px 0px;
+        .inner-box {
+            box-sizing: border-box;
+        }
+    }
+
+    .setting-right {
+        display: block;
+        float: right;
+    }
+
+    .login-wrap {
+        position: relative;
+        height: 100%;
+        /* background-image: url(); */
+        /* background: white; */
+        background: #f9fafc;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .login-wrap-lr {
+        position: relative;
+        height: 100%;
+        /* background-image: url(); */
+        /* background: white; */
+        background-image: url('@/assets/img/basebackgroundimg.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    /* 底部左中右位置修改 */
+    .footer-bottom {
+        position: absolute;
+        /* width: 1440px; */
+        width: 100%;
+        left: 0px;
+        height: 70px;
+        bottom: 0px;
+        left: 0px;
+        background: rgba(18, 19, 21, 0.1);
+        /* background: rgba(0, 0, 0, .15); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-bottom-left {
+        margin-left: -66.6%;
+        width: 33.3%;
+        height: 102px;
+        display: flex;
+        justify-content: center;
+    }
+    /* edit */
+    .footer-bottom-center {
+        margin: 0 auto;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-bottom-right {
+        margin-left: 66.6%;
+        width: 34.4%;
+        height: 102px;
+        display: flex;
+        justify-content: center;
+    }
+    ul li {
+        list-style: none;
+    }
+
+    .footer-column-a {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin-top: 15px;
+        font-family: PingFang SC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: #ffffff;
+        display: inline-block;
+        /* text-align: center; */
+    }
+    .footer-item {
+        margin: 0 10px 0 10px;
+    }
+    .move-box {
+        width: 100%;
+        height: 100%;
+    }
+    .top-area,
+    .under-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        /* background: rgb(201, 118, 118); */
+        background: rgba(18, 19, 21, 0.1);
+        transition: all 1s;
+    }
+
+    .footer-bottom {
+        position: absolute;
+        /* width: 1440px; */
+        width: 100%;
+        left: 0px;
+        height: 70px;
+        bottom: 0px;
+        left: 0px;
+        background: rgba(18, 19, 21, 0.1);
+        /* background: rgba(0, 0, 0, .15); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-bottom-left {
+        margin-left: -66.6%;
+        width: 33.3%;
+        height: 102px;
+        display: flex;
+        justify-content: center;
+    }
+    /* edit */
+    .footer-bottom-center {
+        margin: 0 auto;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-bottom-right {
+        margin-left: 66.6%;
+        width: 34.4%;
+        height: 102px;
+        display: flex;
+        justify-content: center;
+    }
+    ul li {
+        list-style: none;
+    }
+    .footer-column-a {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin-top: 15px;
+        font-family: PingFang SC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: #ffffff;
+        display: inline-block;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 150px) and (max-width: 921px) {
+    .everyDayRate {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+
+        #mobile_form {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+
+            .logo-link {
+                position: absolute;
+                top: 56px;
+                left: 30px;
+                z-index: 100;
+                cursor: pointer;
+                img {
+                    height: 30px;
+                }
+            }
+
+            // 全屏结构的样式
+            .right-box {
+                display: block;
+                width: 100%;
+                min-width: 0;
+                padding: 128px 30px 0;
+                border-radius: 0;
+                background: #fff;
+                .inner-box {
+                    box-sizing: border-box;
+                }
+            }
+
+            .left-box {
+                height: 100%;
+                flex: 1;
+                // background: pink;
+                video {
+                    display: block;
+                    width: 101%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+    .everyDayRate-lr {
+        display: flex;
+        height: 100%;
+        transition: all 0.5s ease-in-out;
+        background-size: cover;
+
+        // ========登录框的位置 start=======
+        //登录框的位置 right
+        .right-lr {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: end;
+            transition: all 0.3s ease-in-out;
+        }
+
+        // 左右结构的样式
+        .right-box-lr {
+            display: block;
+            width: 100%;
+            min-width: 0;
+            padding: 128px 30px 0px;
+            border-radius: 0;
+            background: #fff;
+            .inner-box {
+                box-sizing: border-box;
+            }
+        }
+
+        .left-box-lr {
+            height: 100%;
+            flex: 1;
+            // background: pink;
+            video {
+                display: block;
+                width: 101%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    .login-wrap-lr {
+        width: auto !important;
+        transition: all 0.3s;
+    }
+    // setting 部分
+    .setting-right {
+        display: none;
+    }
+    .login-wrap {
+        width: auto !important;
+        transition: all 0.3s;
+    }
+    .footer-bottom {
+        display: none;
+    }
+}
+::v-deep .el-input__inner {
+    transition: all 0.3s;
+}
+::v-deep .el-input__inner:hover {
+    border-color: #ffb061;
+    border-right-width: 1px !important;
+    z-index: 1;
+}
+::v-deep .el-input.is-active .el-input__inner,
+.el-input__inner:focus {
+    border-color: #ffb061;
+    box-shadow: 0 0 0 2px #fb933733;
+    border-right-width: 1px;
+    outline: 0;
+}
+::v-deep .el-carousel {
+    width: 100% !important;
+    height: 100% !important;
+}
+::v-deep .el-carousel__container {
+    width: 100% !important;
+    height: 100% !important;
+}

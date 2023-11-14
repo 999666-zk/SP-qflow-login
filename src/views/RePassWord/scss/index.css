@@ -1,0 +1,227 @@
+@charset "UTF-8";
+::v-deep .el-input__inner {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+::v-deep .el-input__inner:hover {
+  border-color: #ffb061;
+  border-right-width: 1px !important;
+  z-index: 1;
+}
+
+::v-deep .el-input__inner:focus {
+  border-color: #ffb061 !important;
+  -webkit-box-shadow: 0 0 0 2px #fb933733 !important;
+          box-shadow: 0 0 0 2px #fb933733 !important;
+  border-right-width: 1px !important;
+  outline: 0 !important;
+}
+
+::v-deep .el-select .el-input__inner:focus {
+  border-color: #ffb061;
+  -webkit-box-shadow: 0 0 0 2px #fb933733;
+          box-shadow: 0 0 0 2px #fb933733;
+  border-right-width: 1px;
+  outline: 0;
+}
+
+::v-deep .el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+  background-color: #f5f7fa;
+  color: #ffb061;
+}
+
+::v-deep .el-select-dropdown__item.selected {
+  color: #ffb061 !important;
+  font-weight: 700;
+}
+
+#imgoutbox {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #acb3bd;
+  font-family: 'PingFang SC';
+}
+
+.login-top-text {
+  margin-top: 4px;
+  font-family: 'PingFang SC';
+  color: #121315;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.forget-password {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  line-height: 22px;
+  margin-top: -4px;
+  cursor: pointer;
+}
+
+.forget-password span {
+  color: #fb9337;
+}
+
+/* ::v-deep .el-button--text {
+    padding-bottom: 16px !important;
+} */
+.bottom-text-signup {
+  text-align: right;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #767e89;
+}
+
+.bottom-text-signup span {
+  cursor: pointer;
+  color: #fb9337;
+}
+
+::v-deep .el-form-item:nth-child(3) {
+  margin-bottom: 22px;
+}
+
+#text_login {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+::v-deep #spinput {
+  height: 40px;
+}
+
+::v-deep #spinput,
+#sp_btn {
+  border: none !important;
+}
+
+#spbttn {
+  border: 1px solid #dcdfe6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4px;
+  padding-right: 12px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#spbttn:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(251, 147, 55, 0.2) !important;
+  box-shadow: 0 0 0 2px rgba(251, 147, 55, 0.2) !important;
+}
+
+#spbttn:hover {
+  border: 1px solid #fb9337;
+}
+
+::v-deep .el-button--text {
+  color: #fb9337;
+}
+
+::v-deep #spinput:focus {
+  border-width: 0px !important;
+  border-color: transparent !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.out-box {
+  position: relative;
+}
+
+#card {
+  position: absolute;
+  top: 46px;
+  width: 100%;
+  height: -webkit-max-content !important;
+  height: -moz-max-content !important;
+  height: max-content !important;
+  border-radius: 4px;
+  /* box-shadow: 16px 16px 64px rgba(12, 31, 80, 0.06); */
+  -webkit-box-shadow: 0px 6px 17px -4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 6px 17px -4px rgba(0, 0, 0, 0.15);
+  background: white;
+  padding: 10px;
+}
+
+svg {
+  margin-right: 10px !important;
+}
+
+/* 动画 */
+/* 下面我们会解释这些 class 是做什么的 */
+.v-enter-active,
+.v-leave-active {
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
+.cancelbtn1 {
+  width: 100%;
+  background: var(--qf-background-color-10, #f4f4f4) !important;
+  border-color: var(--qf-neutral-color-60, #ccd4e0) !important;
+  color: #ccd4e0 !important;
+}
+
+.cancelbtn2 {
+  width: 100%;
+  background: #fb9337 !important;
+  border-color: #fb9337 !important;
+  color: #ffffff !important;
+}
+
+.cancelbtn2:hover {
+  background: #ffb061;
+  border: 1px solid #ffb061;
+}
+
+::v-deep .el-dialog {
+  width: -webkit-max-content !important;
+  width: -moz-max-content !important;
+  width: max-content !important;
+  min-width: 320px !important;
+  border-radius: 24px;
+}

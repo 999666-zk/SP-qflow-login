@@ -1,0 +1,229 @@
+@media screen and (min-width: 922px){
+  .login-box {
+    position: relative;
+    width: 336px;
+    // 这里的高度应该是要被撑起来的
+    .login-box-top-area {
+      padding-bottom: 20px;
+      transition: all 0.3s;
+      //logo的位置
+      @import "../scss/PcAndMobileLoginForm.scss";
+      .form-title {
+        margin-top: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #767e89;
+
+        a {
+          color: #fb9337;
+          text-decoration: none;
+          background-color: transparent;
+          outline: none;
+          cursor: pointer;
+          transition: color 0.3s;
+          &:hover {
+            color: #ffa459;
+          }
+        }
+      }
+    }
+
+    .form-items {
+      box-sizing: border-box;
+      margin: 0 0 20px;
+      padding: 0;
+      color: #000000d9;
+      font-size: 16px;
+      font-variant: tabular-nums;
+      line-height: 1;
+      list-style: none;
+      font-feature-settings: "tnum", "tnum";
+      vertical-align: top;
+      .box-form-out {
+        width: 100%;
+        flex: 1 1 0;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        max-width: 100%;
+        min-height: 1px;
+        box-sizing: border-box;
+        .box-form-out-in-box {
+          box-sizing: border-box;
+          height: 44px;
+          .box-form-out-inner {
+            box-sizing: border-box;
+            .btn {
+              border: 1px solid transparent;
+              cursor: pointer;
+              padding: 14px 16px;
+              height: 44px;
+              width: 100%;
+              background: var(--brand-primary-base, #fb9337);
+              position: relative;
+              display: inline-flex;
+              align-items: center;
+              color: #fff;
+              justify-content: center;
+              transition: all 0.1s ease-in-out;
+              border-radius: 4px;
+              &:hover {
+                background: var(--brand-primary-50, #ffa459);
+              }
+              span {
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 16px;
+              }
+            }
+            .forget-pwd {
+              margin-top: 16px;
+              text-align: end;
+              a {
+                background: transparent;
+                text-decoration: none;
+                outline: none;
+                cursor: pointer;
+                color: #fb9337;
+                transition: color 0.3s;
+                &:hover {
+                  color: #ffa459;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .login-form {
+      /* 只有其他登录方式时 */
+      .login-other {
+        transition: all 1s;
+        height: auto;
+        overflow-y: scroll;
+        text-align: center;
+        /* display: none; */
+      }
+      .wechat-login {
+        height: 44px;
+        width: 372px;
+        border: 1px solid #ccd4e0;
+        background: #ffffff;
+        box-sizing: border-box;
+        border-radius: 4px;
+        top: 168px;
+        left: 32px;
+        margin-top: 54px;
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .workwechat-login {
+        height: 44px;
+        width: 100%;
+        border: 1px solid #ccd4e0;
+        background: #ffffff;
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-top: 16px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .work-login-font {
+        width: max-content;
+        height: auto;
+        color: #121315;
+        font-family: PingFang SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        margin: 0 auto;
+      }
+
+      .login-font {
+        width: 100%;
+        height: 100%;
+        color: #121315;
+        font-family: PingFang SC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* vertical-align: middle; */
+      }
+      .wechat-img {
+        width: 21px;
+        height: 19px;
+        vertical-align: middle;
+      }
+
+      .workwechat-img {
+        width: 0.5rem;
+        height: 0.5rem;
+        vertical-align: middle;
+        margin-right: 0.1rem;
+        border-radius: 50%;
+      }
+
+      .split-line {
+        position: absolute;
+        width: 372px;
+        height: 1px;
+        margin-left: 32px;
+        top: 336px;
+        border: 0;
+        background: #e6eaf0;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+      }
+
+      .register-account {
+        /* position: absolute; */
+        width: 56px;
+        height: 22px;
+        font-family: PingFang SC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: #767e89;
+        left: calc(50% - 56px / 2 + 1px);
+        top: calc(50% - 22px / 2 + 168px);
+        transition: all 0.3s;
+      }
+    }
+    .login-box-bottom-area {
+      /* 登录方式选择 */
+      .login-style {
+        height: 62px;
+        width: 100%;
+        bottom: 50px;
+        display: flex;
+        justify-content: space-around;
+        transition: all 0.3s;
+        a {
+          border: 1px solid #e6eaf0;
+          border-radius: 100%;
+        }
+        img {
+          width: 60px;
+          height: 60px;
+        }
+      }
+
+      /* 登录方式选择 */
+      .login-style1 {
+        height: 0px;
+        transition: all 0.3s;
+        // display: none;
+      }
+    }
+  }
+}

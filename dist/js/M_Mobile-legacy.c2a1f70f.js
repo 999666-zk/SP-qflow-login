@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkSMGS"]=self["webpackChunkSMGS"]||[]).push([[381],{30897:function(n,t,e){e.r(t),e.d(t,{default:function(){return a}});var u=function(){var n=this,t=n._self._c;return t("div",[n._v("我是移动端")])},c=[],o={components:{},data:function(){return{}},computed:{},methods:{},created:function(){},mounted:function(){}},r=o,f=e(43736),s=(0,f.Z)(r,u,c,!1,null,"78a532e2",null),a=s.exports}}]);
+//# sourceMappingURL=M_Mobile-legacy.c2a1f70f.js.map
